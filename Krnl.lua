@@ -230,7 +230,7 @@ end
 
   UserInputService.InputBegan:Connect(function(Input, GameProcessed)
     if Input.KeyCode == Enum.KeyCode.RightControl and not GameProcessed then
-        Window.Main.Visible = not Window.Main.Visible
+        Window.Visible = not Window.Visible
     end
   end)
 
