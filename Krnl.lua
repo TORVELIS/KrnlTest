@@ -345,7 +345,7 @@ end
     })
   end
 
-  if request(Window) then
+  if request then
     Window.Parent = CoreGui
   elseif gethui then
     Window.Parent = gethui()
