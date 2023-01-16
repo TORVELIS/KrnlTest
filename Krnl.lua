@@ -647,7 +647,7 @@ end
 
   function SectionTable:Check(CheckArgs)
   CheckArgs.Text = CheckArgs.Text or "Check"
-  CheckArgs.Flag = CheckArgs.Flag or nil
+  CheckArgs.Flag = CheckArgs.Flag
   CheckArgs.Default = CheckArgs.Default or false
   CheckArgs.Callback = CheckArgs.Callback or function() end
 
